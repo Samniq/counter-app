@@ -1,0 +1,40 @@
+:root {
+  --increase: rgb(72, 188, 89);
+  --decrease: rgb(251, 28, 28);
+  --reset: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 4em;
+}
+#count-txt {
+  font-size: 3em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+h2 {
+  background-color: aliceblue;
+  color: var(--reset);
+}
+button {
+  padding: 5px;
+  padding-inline: 20px;
+  font-size: 2em;
+  border-color: black;
+  margin-left: 5px;
+}
+button:active {
+  background-color: #fff;
+}
